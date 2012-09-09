@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA7FB8F15E513AE0061F82A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA7FB8E15E513AE0061F82A /* UIKit.framework */; };
+		2CA7FB9115E513AE0061F82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA7FB9015E513AE0061F82A /* Foundation.framework */; };
+		2CA7FB9315E513AE0061F82A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA7FB9215E513AE0061F82A /* CoreGraphics.framework */; };
+		2CA7FB9915E513AE0061F82A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CA7FB9715E513AE0061F82A /* InfoPlist.strings */; };
+		2CA7FB9B15E513AE0061F82A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7FB9A15E513AE0061F82A /* main.m */; };
+		2CA7FB9F15E513AE0061F82A /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7FB9E15E513AE0061F82A /* DLAppDelegate.m */; };
+		2CA7FBA215E513AE0061F82A /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7FBA115E513AE0061F82A /* DLViewController.m */; };
+		2CA7FBA515E513AE0061F82A /* DLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA7FBA315E513AE0061F82A /* DLViewController.xib */; };
+		2CA7FBBD15E5200E0061F82A /* DLPlayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7FBBC15E5200E0061F82A /* DLPlayerInfo.m */; };
+		2CA7FBC715E528280061F82A /* DLSc2RanksService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7FBC615E528280061F82A /* DLSc2RanksService.m */; };
+		2CA7FBD715E5385B0061F82A /* DLWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7FBD515E5385B0061F82A /* DLWebView.m */; };
+		2CA7FBD815E5385B0061F82A /* DLWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA7FBD615E5385B0061F82A /* DLWebView.xib */; };
+		B525A7092ADB4F759418300F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6CEBC417E94A6E8719358C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CA7FB8A15E513AE0061F82A /* StarCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA7FB8E15E513AE0061F82A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CA7FB9015E513AE0061F82A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CA7FB9215E513AE0061F82A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CA7FB9615E513AE0061F82A /* StarCraft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarCraft-Info.plist"; sourceTree = "<group>"; };
+		2CA7FB9815E513AE0061F82A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CA7FB9A15E513AE0061F82A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA7FB9C15E513AE0061F82A /* StarCraft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarCraft-Prefix.pch"; sourceTree = "<group>"; };
+		2CA7FB9D15E513AE0061F82A /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
+		2CA7FB9E15E513AE0061F82A /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
+		2CA7FBA015E513AE0061F82A /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		2CA7FBA115E513AE0061F82A /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
+		2CA7FBA415E513AE0061F82A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DLViewController.xib; sourceTree = "<group>"; };
+		2CA7FBBB15E5200E0061F82A /* DLPlayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLPlayerInfo.h; sourceTree = "<group>"; };
+		2CA7FBBC15E5200E0061F82A /* DLPlayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLPlayerInfo.m; sourceTree = "<group>"; };
+		2CA7FBC515E528280061F82A /* DLSc2RanksService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSc2RanksService.h; sourceTree = "<group>"; };
+		2CA7FBC615E528280061F82A /* DLSc2RanksService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSc2RanksService.m; sourceTree = "<group>"; };
+		2CA7FBD415E5385B0061F82A /* DLWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLWebView.h; sourceTree = "<group>"; };
+		2CA7FBD515E5385B0061F82A /* DLWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLWebView.m; sourceTree = "<group>"; };
+		2CA7FBD615E5385B0061F82A /* DLWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DLWebView.xib; sourceTree = "<group>"; };
+		9F8C4708D41C45F98C3941C8 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		BE6CEBC417E94A6E8719358C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA7FB8715E513AE0061F82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA7FB8F15E513AE0061F82A /* UIKit.framework in Frameworks */,
+				2CA7FB9115E513AE0061F82A /* Foundation.framework in Frameworks */,
+				2CA7FB9315E513AE0061F82A /* CoreGraphics.framework in Frameworks */,
+				B525A7092ADB4F759418300F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA7FB7F15E513AE0061F82A = {
+			isa = PBXGroup;
+			children = (
+				2CA7FB9415E513AE0061F82A /* StarCraft */,
+				2CA7FB8D15E513AE0061F82A /* Frameworks */,
+				2CA7FB8B15E513AE0061F82A /* Products */,
+				9F8C4708D41C45F98C3941C8 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2CA7FB8B15E513AE0061F82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7FB8A15E513AE0061F82A /* StarCraft.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CA7FB8D15E513AE0061F82A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7FB8E15E513AE0061F82A /* UIKit.framework */,
+				2CA7FB9015E513AE0061F82A /* Foundation.framework */,
+				2CA7FB9215E513AE0061F82A /* CoreGraphics.framework */,
+				BE6CEBC417E94A6E8719358C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CA7FB9415E513AE0061F82A /* StarCraft */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7FBBA15E51FEB0061F82A /* Views */,
+				2CA7FBB915E51FE10061F82A /* Controllers */,
+				2CA7FBB715E51FDA0061F82A /* Model */,
+				2CA7FB9D15E513AE0061F82A /* DLAppDelegate.h */,
+				2CA7FB9E15E513AE0061F82A /* DLAppDelegate.m */,
+				2CA7FB9515E513AE0061F82A /* Supporting Files */,
+			);
+			path = StarCraft;
+			sourceTree = "<group>";
+		};
+		2CA7FB9515E513AE0061F82A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7FB9615E513AE0061F82A /* StarCraft-Info.plist */,
+				2CA7FB9715E513AE0061F82A /* InfoPlist.strings */,
+				2CA7FB9A15E513AE0061F82A /* main.m */,
+				2CA7FB9C15E513AE0061F82A /* StarCraft-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CA7FBB715E51FDA0061F82A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7FBBB15E5200E0061F82A /* DLPlayerInfo.h */,
+				2CA7FBBC15E5200E0061F82A /* DLPlayerInfo.m */,
+				2CA7FBC515E528280061F82A /* DLSc2RanksService.h */,
+				2CA7FBC615E528280061F82A /* DLSc2RanksService.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2CA7FBB915E51FE10061F82A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7FBA015E513AE0061F82A /* DLViewController.h */,
+				2CA7FBA115E513AE0061F82A /* DLViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2CA7FBBA15E51FEB0061F82A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7FBA315E513AE0061F82A /* DLViewController.xib */,
+				2CA7FBD415E5385B0061F82A /* DLWebView.h */,
+				2CA7FBD515E5385B0061F82A /* DLWebView.m */,
+				2CA7FBD615E5385B0061F82A /* DLWebView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA7FB8915E513AE0061F82A /* StarCraft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA7FBA815E513AE0061F82A /* Build configuration list for PBXNativeTarget "StarCraft" */;
+			buildPhases = (
+				2CA7FB8615E513AE0061F82A /* Sources */,
+				2CA7FB8715E513AE0061F82A /* Frameworks */,
+				2CA7FB8815E513AE0061F82A /* Resources */,
+				E18652F8F97149218A0F2515 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarCraft;
+			productName = StarCraft;
+			productReference = 2CA7FB8A15E513AE0061F82A /* StarCraft.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CA7FB8115E513AE0061F82A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DL;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2CA7FB8415E513AE0061F82A /* Build configuration list for PBXProject "StarCraft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CA7FB7F15E513AE0061F82A;
+			productRefGroup = 2CA7FB8B15E513AE0061F82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CA7FB8915E513AE0061F82A /* StarCraft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CA7FB8815E513AE0061F82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA7FB9915E513AE0061F82A /* InfoPlist.strings in Resources */,
+				2CA7FBA515E513AE0061F82A /* DLViewController.xib in Resources */,
+				2CA7FBD815E5385B0061F82A /* DLWebView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E18652F8F97149218A0F2515 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA7FB8615E513AE0061F82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA7FB9B15E513AE0061F82A /* main.m in Sources */,
+				2CA7FB9F15E513AE0061F82A /* DLAppDelegate.m in Sources */,
+				2CA7FBA215E513AE0061F82A /* DLViewController.m in Sources */,
+				2CA7FBBD15E5200E0061F82A /* DLPlayerInfo.m in Sources */,
+				2CA7FBC715E528280061F82A /* DLSc2RanksService.m in Sources */,
+				2CA7FBD715E5385B0061F82A /* DLWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CA7FB9715E513AE0061F82A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA7FB9815E513AE0061F82A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2CA7FBA315E513AE0061F82A /* DLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA7FBA415E513AE0061F82A /* en */,
+			);
+			name = DLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA7FBA615E513AE0061F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CA7FBA715E513AE0061F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CA7FBA915E513AE0061F82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8C4708D41C45F98C3941C8 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarCraft/StarCraft-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "StarCraft/StarCraft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CA7FBAA15E513AE0061F82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8C4708D41C45F98C3941C8 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarCraft/StarCraft-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "StarCraft/StarCraft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA7FB8415E513AE0061F82A /* Build configuration list for PBXProject "StarCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA7FBA615E513AE0061F82A /* Debug */,
+				2CA7FBA715E513AE0061F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA7FBA815E513AE0061F82A /* Build configuration list for PBXNativeTarget "StarCraft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA7FBA915E513AE0061F82A /* Debug */,
+				2CA7FBAA15E513AE0061F82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CA7FB8115E513AE0061F82A /* Project object */;
+}
